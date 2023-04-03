@@ -26,11 +26,11 @@ Hello, I´m Marco Díaz
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio part 5 of 10: Application deploy] <a name="about-project"></a>
+# 📖 [Portfolio part 6 of 10: Evaluate accessibility] <a name="about-project"></a>
 
-In this part of the project, I am using GitHub pages for the deployment of my web pages.
+**[Project 6: Evaluate accessibility**
 
-**[Project 5: Application deploy]** is a...
+Evaluate my website against accessibility best practices and implement any necessary changes to ensure that my website is accessible.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -126,10 +126,10 @@ You can deploy this project in this link <a href="https://marcodiaz2000.github.i
 - [ ] **[Project 2: Mobile version]**
 - [ ] **[Project 3: Contact form (pair programming)]**
 - [ ] **[Project 4: Desktop version]**
+- [ ] **[Project 5: Application deploy]**
 
-## **[Project 5: Application deploy]**
+## **[Project 6: Evaluate accessibility (pair programming)]**
 
-- [ ] **[Project 6: Evaluate accessibility (pair programming)]**
 - [ ] **[Project 7: Mobile menu (pair programming)]**
 - [ ] **[Project 8: Details modal (pair programming)]**
 - [ ] **[Project 9: Validate contact form (pair programming)]**
