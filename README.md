@@ -1,7 +1,5 @@
 Hello, I´m Marco Díaz
 
-You can deploy this project in this link <a href="https://marcodiaz2000.github.io/portfolio/">www.marcodiaz2000.github.io/portfolio/</a>
-
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
