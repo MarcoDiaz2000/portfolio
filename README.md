@@ -67,7 +67,7 @@ In this part of the project, I am using GitHub pages for the deployment of my we
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39-122&t=l1YzCxj8jWzRQ7lA-0)
+- [Live Demo Link](https://marcodiaz2000.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,7 +90,7 @@ Install Node Js on your local computer.
 
 Install this project with:
 
-<pre> git clone https://github.com/MarcoDiaz2000/Project-3-Contact-form-pair-programming-.git</pre>
+<pre> git clone https://github.com/MarcoDiaz2000/portafolio.git</pre>
 
 ### Usage
 
