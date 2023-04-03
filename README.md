@@ -104,7 +104,7 @@ To run tests, run a live server on your computer..
 
 ### Deployment
 
-You can deploy this project using <a href="https://github.com/"> Github</a>:
+You can deploy this project in this link <a href="https://marcodiaz2000.github.io/portfolio/">www.marcodiaz2000.github.io/portfolio/</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
