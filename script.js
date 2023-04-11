@@ -6,9 +6,8 @@ hamburger.addEventListener('click', () => {
   menu.classList.toggle('active');
 });
 
-document.querySelectorAll('.menu-link').forEach((n) =>
-  n.addEventListener('click', () => {
+document.querySelectorAll('.menu-link').forEach((n) => n.addEventListener('click', () => {
     hamburger.classList.remove('active');
     menu.classList.remove('active');
-  })
+  });
 );
