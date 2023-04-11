@@ -896,7 +896,6 @@ button:hover {
     font-size: 48px;
     line-height: 60px;
     display: flex;
-    align-items: left;
     letter-spacing: 0.37px;
     color: #091e42;
     flex: none;
@@ -1016,7 +1015,7 @@ button:hover {
     flex-wrap: wrap;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10;
+    padding: 10px;
     padding-right: 40px;
   }
 
