@@ -7,6 +7,6 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.menu-link').forEach((n) => n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    menu.classList.remove('active');
-  }));
+  hamburger.classList.remove('active');
+  menu.classList.remove('active');
+}));
