@@ -22,6 +22,7 @@ body {
   background-size: 100% 100%;
   margin: 0%;
 }
+
 .header2 {
   width: 100%;
 }
@@ -726,6 +727,7 @@ button:hover {
     width: 100%;
     margin: 0 150px;
   }
+
   .mainmenu {
     display: flex;
     flex-direction: row;
