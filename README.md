@@ -1,6 +1,5 @@
 Hello, I´m Marco Díaz
 
-This is a video presentation of my project (<a href="https://www.loom.com/share/1181a77da599435ea7ce558d0d99e7f0">Video</a>)
 
 <a name="readme-top"></a>
 
@@ -11,6 +10,7 @@ This is a video presentation of my project (<a href="https://www.loom.com/share/
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🔭 Video Presentation](#video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -28,11 +28,12 @@ This is a video presentation of my project (<a href="https://www.loom.com/share/
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio part 6 of 10: Evaluate accessibility] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-**[Project 6: Evaluate accessibility**
+**[Learning objectives]**
 
-Evaluate my website against accessibility best practices and implement any necessary changes to ensure that my website is accessible.
+- [ ] Understand how to parse a Figma design to create a UI.
+- [ ] Build a personal portfolio site.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,6 +73,14 @@ Evaluate my website against accessibility best practices and implement any neces
 - [Live Demo Link](https://marcodiaz2000.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Video Presentation <a name="video"></a>
+
+- [Video Presentation](https://www.loom.com/share/1181a77da599435ea7ce558d0d99e7f0)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
@@ -129,9 +138,7 @@ You can deploy this project in this link <a href="https://marcodiaz2000.github.i
 - [ ] **[Project 3: Contact form (pair programming)]**
 - [ ] **[Project 4: Desktop version]**
 - [ ] **[Project 5: Application deploy]**
-
-## **[Project 6: Evaluate accessibility (pair programming)]**
-
+- [ ] **[Project 6: Evaluate accessibility (pair programming)]**
 - [ ] **[Project 7: Mobile menu (pair programming)]**
 - [ ] **[Project 8: Details modal (pair programming)]**
 - [ ] **[Project 9: Validate contact form (pair programming)]**
