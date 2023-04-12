@@ -84,10 +84,6 @@ for (let i = 0; i < projects.length; i += 1) {
   `;
 }
 
-function displayProject(project) {
-
-}
-
 const buttons = document.querySelectorAll('.btn');
 buttons.forEach((button, index) => {
   button.addEventListener('click', () => {
