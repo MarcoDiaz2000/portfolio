@@ -1,59 +1,60 @@
-const hamburger = document.querySelector(".hamburger");
-const menu = document.querySelector(".mainmenu");
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.mainmenu');
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  menu.classList.toggle("active");
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  menu.classList.toggle('active');
 });
 
-document.querySelectorAll(".menu-link").forEach((n) =>
-  n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    menu.classList.remove("active");
+document.querySelectorAll('.menu-link').forEach((n) =>
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    menu.classList.remove('active');
   })
 );
 
 const projects = [
   {
-    title: "Tonic",
+    title: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p1.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p1.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
   {
-    title: "Multi-Post Stories",
+    title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p2.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p2.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
 
   {
-    title: "Tonic",
+    title: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p3.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p3.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
   {
-    title: "Multi-Post Stories",
+    title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p4.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p4.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
 ];
 
-const portfolio = document.querySelector("#portfolio");
+const portfolio = document.querySelector('#portfolio');
+
 for (let i = 0; i < projects.length; i += 1) {
   portfolio.innerHTML += `
     <div class="hero">
