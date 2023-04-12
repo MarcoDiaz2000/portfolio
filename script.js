@@ -7,11 +7,9 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.menu-link').forEach((n) =>
-  n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
+  n.addEventListener('click', () => {hamburger.classList.remove('active');
     menu.classList.remove('active');
-  })
-);
+  }));
 
 const projects = [
   {
@@ -84,6 +82,10 @@ for (let i = 0; i < projects.length; i += 1) {
     </div>
   </div>
   `;
+}
+
+function displayProject(project) {
+
 }
 
 const buttons = document.querySelectorAll('.btn');
