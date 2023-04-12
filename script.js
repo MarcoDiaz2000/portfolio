@@ -85,15 +85,6 @@ for (let i = 0; i < projects.length; i += 1) {
 }
 
 function displayProject(project) {
-
-}
-
-const buttons = document.querySelectorAll('.btn');
-buttons.forEach((button, index) => {button.addEventListener('click', () => {displayProject(projects[index]);
-  });
-});
-
-function displayProject(project) {
   const modal = document.createElement('div');
   modal.classList.add('modal');
 
@@ -141,3 +132,10 @@ function displayProject(project) {
 
   document.body.appendChild(modal);
 }
+
+const buttons = document.querySelectorAll('.btn');
+buttons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    displayProject(projects[index]);
+  });
+});
