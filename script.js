@@ -101,7 +101,9 @@ function displayProject(project) {
         <img src="images/dot.png" alt="dot" />
         <span class="texttype2">2015</span>
       </div>
+        <div class="img-div-modal">
       <img class="img-hero" src="${project.image}" alt="image-project" />
+        </div>
       <div class="project-info">
         <div class="column1">
           <div class="description">
