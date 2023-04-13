@@ -1138,17 +1138,14 @@ button:hover {
 .modal-content {
   background-color: #fefefe;
   padding: 24px;
-  padding-right: 54px;
   border: 1px solid #888;
   margin: 30px;
   overflow: auto;
-  display: inline-block;
+  display: block;
 }
 
 .description {
   flex: 1;
-  padding-right: 20px;
-  margin: 20px;
 }
 
 .buttons {
@@ -1171,6 +1168,7 @@ button:hover {
   flex: none;
   order: 1;
   flex-grow: 0;
+  padding-top: 15px;
 }
 
 .close {
@@ -1230,17 +1228,25 @@ button:hover {
 }
 
 .h2-modal {
-  padding-left: 30px;
+  padding-left: 0px;
 }
 
+/* .div-type-modal {
+  padding-left: 7px;
+  display: block;
+  flex-direction: column;
+} */
+
 .type-modal {
-  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 0px;
 }
 
 .img-div-modal {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
@@ -1256,5 +1262,38 @@ button:hover {
   .column2 {
     width: 35%;
     padding-top: 20px;
+  }
+
+  .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(179, 179, 179, 0.8);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    padding: 24px;
+    padding-right: 54px;
+    border: 1px solid #888;
+    margin: 30px;
+    overflow: auto;
+    display: block;
+  }
+
+  .h2-modal {
+    padding-left: 30px;
+  }
+
+  .type-modal {
+    padding-left: 35px;
+  }
+
+  .text1-modal {
+    padding-right: 20px;
   }
 }
