@@ -1228,20 +1228,14 @@ button:hover {
 }
 
 .h2-modal {
-  padding-left: 0px;
+  padding-left: 0%;
 }
-
-/* .div-type-modal {
-  padding-left: 7px;
-  display: block;
-  flex-direction: column;
-} */
 
 .type-modal {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  padding-left: 0px;
+  padding-left: 0%;
 }
 
 .img-div-modal {
