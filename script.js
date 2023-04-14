@@ -1,94 +1,95 @@
-const hamburger = document.querySelector(".hamburger");
-const menu = document.querySelector(".mainmenu");
+const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.mainmenu');
 
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  menu.classList.toggle("active");
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  menu.classList.toggle('active');
 });
 
-document.querySelectorAll(".menu-link").forEach((n) => {
-  n.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    menu.classList.remove("active");
+document.querySelectorAll('.menu-link').forEach((n) => {
+  n.addEventListener('click', () => {
+    hamburger.classList.remove('active');
+    menu.classList.remove('active');
   });
 });
 
 const projects = [
   {
-    title: "Tonic",
+    title: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p1.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p1.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
   {
-    title: "Multi-Post Stories",
+    title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p2.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p2.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
 
   {
-    title: "Tonic",
+    title: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p3.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p3.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
   {
-    title: "Multi-Post Stories",
+    title: 'Multi-Post Stories',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "images/p4.png",
-    html: "HTML",
-    css: "CSS",
-    javascript: "JavaScript",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    image: 'images/p4.png',
+    html: 'HTML',
+    css: 'CSS',
+    javascript: 'JavaScript',
   },
 ];
 
-const portfolio = document.querySelector("#portfolio");
+const portfolio = document.querySelector('#portfolio');
 
 for (let i = 0; i < projects.length; i += 1) {
   portfolio.innerHTML += `
-    <div class="hero">
-    <div class="col1">
-      <img class="img-hero" src="${projects[i].image}" alt="image-project" />
+    <div class='hero'>
+    <div class='col1'>
+      <img class='img-hero' src='${projects[i].image}' alt='image-project' />
     </div>
-    <div class="col2">
-      <h2 class="title2">${projects[i].title}</h2>
-      <div class="type">
-        <span class="texttype">CANOPY</span>
-        <img src="images/dot.png" alt="dot" />
-        <span class="texttype2">Back End Dev</span>
-        <img src="images/dot.png" alt="dot" />
-        <span class="texttype2">2015</span>
+    <div class='col2'>
+      <h2 class='title2'>${projects[i].title}</h2>
+      <div class='type'>
+        <span class='texttype'>CANOPY</span>
+        <img src='images/dot.png' alt='dot' />
+        <span class='texttype2'>Back End Dev</span>
+        <img src='images/dot.png' alt='dot' />
+        <span class='texttype2'>2015</span>
       </div>
-      <p class="text1">
+      <p class='text1'>
       ${projects[i].description}
       </p>
-      <div class="wbtn">
-        <ul class="wbtn1">
-          <li class="wbtn3">${projects[i].html}</li>
-          <li class="wbtn3">${projects[i].css}</li>
-          <li class="wbtn3">${projects[i].javascript}</li>
+      <div class='wbtn'>
+        <ul class='wbtn1'>
+          <li class='wbtn3'>${projects[i].html}</li>
+          <li class='wbtn3'>${projects[i].css}</li>
+          <li class='wbtn3'>${projects[i].javascript}</li>
         </ul>
       </div>
-      <button class="btn">See project</button>
+      <button class='btn'>See project</button>
     </div>
   </div>
   `;
 }
 
 function displayProject(project) {
-  const modal = document.createElement("div");
-  modal.classList.add("modal");
+  const modal = document.createElement('div');
+  modal.classList.add('modal');
+
 
   modal.innerHTML = `
     <div class="modal-content">
@@ -129,34 +130,31 @@ function displayProject(project) {
     </div>
   `;
 
-  const closeButton = modal.querySelector(".close");
-  closeButton.addEventListener("click", () => {
+  const closeButton = modal.querySelector('.close');
+  closeButton.addEventListener('click', () => {
     modal.remove();
   });
 
   document.body.appendChild(modal);
 }
 
-const buttons = document.querySelectorAll(".btn");
+const buttons = document.querySelectorAll('.btn');
 buttons.forEach((button, index) => {
-  button.addEventListener("click", () => {
+  button.addEventListener('click', () => {
     displayProject(projects[index]);
   });
 });
 
-//validation
+const form = document.getElementById('form-portfolio');
+const email = form.elements['user_email'];
 
-const form = document.getElementById("form-portfolio");
-const name = form.elements["user_name"];
-const email = form.elements["user_email"];
-
-form.addEventListener("submit", function (e) {
+form.addEventListener('submit', function (e) {
   let emailAddress = email.value;
 
   if (emailAddress !== emailAddress.toLowerCase()) {
     e.preventDefault();
     alert(
-      "The message was not sent, please put the email address in lower case. Thank you."
+      'The message was not sent, please put the email address in lower case. Thank you.'
     );
   }
 });
