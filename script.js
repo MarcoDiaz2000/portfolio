@@ -1,59 +1,59 @@
-const hamburger = document.querySelector('.hamburger');
-const menu = document.querySelector('.mainmenu');
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector(".mainmenu");
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  menu.classList.toggle('active');
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  menu.classList.toggle("active");
 });
 
-document.querySelectorAll('.menu-link').forEach((n) => {
-  n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    menu.classList.remove('active');
+document.querySelectorAll(".menu-link").forEach((n) => {
+  n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    menu.classList.remove("active");
   });
 });
 
 const projects = [
   {
-    title: 'Tonic',
+    title: "Tonic",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/p1.png',
-    html: 'HTML',
-    css: 'CSS',
-    javascript: 'JavaScript',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    image: "images/p1.png",
+    html: "HTML",
+    css: "CSS",
+    javascript: "JavaScript",
   },
   {
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/p2.png',
-    html: 'HTML',
-    css: 'CSS',
-    javascript: 'JavaScript',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    image: "images/p2.png",
+    html: "HTML",
+    css: "CSS",
+    javascript: "JavaScript",
   },
 
   {
-    title: 'Tonic',
+    title: "Tonic",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/p3.png',
-    html: 'HTML',
-    css: 'CSS',
-    javascript: 'JavaScript',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    image: "images/p3.png",
+    html: "HTML",
+    css: "CSS",
+    javascript: "JavaScript",
   },
   {
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/p4.png',
-    html: 'HTML',
-    css: 'CSS',
-    javascript: 'JavaScript',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    image: "images/p4.png",
+    html: "HTML",
+    css: "CSS",
+    javascript: "JavaScript",
   },
 ];
 
-const portfolio = document.querySelector('#portfolio');
+const portfolio = document.querySelector("#portfolio");
 
 for (let i = 0; i < projects.length; i += 1) {
   portfolio.innerHTML += `
@@ -87,8 +87,8 @@ for (let i = 0; i < projects.length; i += 1) {
 }
 
 function displayProject(project) {
-  const modal = document.createElement('div');
-  modal.classList.add('modal');
+  const modal = document.createElement("div");
+  modal.classList.add("modal");
 
   modal.innerHTML = `
     <div class="modal-content">
@@ -129,17 +129,34 @@ function displayProject(project) {
     </div>
   `;
 
-  const closeButton = modal.querySelector('.close');
-  closeButton.addEventListener('click', () => {
+  const closeButton = modal.querySelector(".close");
+  closeButton.addEventListener("click", () => {
     modal.remove();
   });
 
   document.body.appendChild(modal);
 }
 
-const buttons = document.querySelectorAll('.btn');
+const buttons = document.querySelectorAll(".btn");
 buttons.forEach((button, index) => {
-  button.addEventListener('click', () => {
+  button.addEventListener("click", () => {
     displayProject(projects[index]);
   });
+});
+
+//validation
+
+const form = document.getElementById("form-portfolio");
+const name = form.elements["user_name"];
+const email = form.elements["user_email"];
+
+form.addEventListener("submit", function (e) {
+  let emailAddress = email.value;
+
+  if (emailAddress !== emailAddress.toLowerCase()) {
+    e.preventDefault();
+    alert(
+      "The message was not sent, please put the email address in lower case. Thank you."
+    );
+  }
 });
