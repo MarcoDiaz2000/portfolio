@@ -146,13 +146,13 @@ buttons.forEach((button, index) => {
 
 const form = document.getElementById('form-portfolio');
 const email = form.elements.user_email;
+const errorMessage = document.getElementById('error-message-form');
 
-form.addEventListener('submit', () => {
+form.addEventListener('submit', (event) => {
   const emailAddress = email.value;
 
   if (emailAddress !== emailAddress.toLowerCase()) {
-    alert(
-      'The message was not sent, please put the email address in lower case. Thank you.',
-    );
+    errorMessage.textContent = 'The message was not sent, please put the email address in lowercase. Thank you.';
+    event.preventDefault();
   }
 });
