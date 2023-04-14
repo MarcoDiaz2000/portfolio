@@ -57,30 +57,30 @@ const portfolio = document.querySelector('#portfolio');
 
 for (let i = 0; i < projects.length; i += 1) {
   portfolio.innerHTML += `
-    <div class="hero">
-    <div class="col1">
-      <img class="img-hero" src="${projects[i].image}" alt="image-project" />
+    <div class='hero'>
+    <div class='col1'>
+      <img class='img-hero' src='${projects[i].image}' alt='image-project' />
     </div>
-    <div class="col2">
-      <h2 class="title2">${projects[i].title}</h2>
-      <div class="type">
-        <span class="texttype">CANOPY</span>
-        <img src="images/dot.png" alt="dot" />
-        <span class="texttype2">Back End Dev</span>
-        <img src="images/dot.png" alt="dot" />
-        <span class="texttype2">2015</span>
+    <div class='col2'>
+      <h2 class='title2'>${projects[i].title}</h2>
+      <div class='type'>
+        <span class='texttype'>CANOPY</span>
+        <img src='images/dot.png' alt='dot' />
+        <span class='texttype2'>Back End Dev</span>
+        <img src='images/dot.png' alt='dot' />
+        <span class='texttype2'>2015</span>
       </div>
-      <p class="text1">
+      <p class='text1'>
       ${projects[i].description}
       </p>
-      <div class="wbtn">
-        <ul class="wbtn1">
-          <li class="wbtn3">${projects[i].html}</li>
-          <li class="wbtn3">${projects[i].css}</li>
-          <li class="wbtn3">${projects[i].javascript}</li>
+      <div class='wbtn'>
+        <ul class='wbtn1'>
+          <li class='wbtn3'>${projects[i].html}</li>
+          <li class='wbtn3'>${projects[i].css}</li>
+          <li class='wbtn3'>${projects[i].javascript}</li>
         </ul>
       </div>
-      <button class="btn">See project</button>
+      <button class='btn'>See project</button>
     </div>
   </div>
   `;
@@ -142,4 +142,17 @@ buttons.forEach((button, index) => {
   button.addEventListener('click', () => {
     displayProject(projects[index]);
   });
+});
+
+const form = document.getElementById('form-portfolio');
+const email = form.elements.user_email;
+const errorMessage = document.getElementById('error-message-form');
+
+form.addEventListener('submit', (event) => {
+  const emailAddress = email.value;
+
+  if (emailAddress !== emailAddress.toLowerCase()) {
+    errorMessage.textContent = 'The message was not sent, please put the email address in lowercase. Thank you.';
+    event.preventDefault();
+  }
 });
