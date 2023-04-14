@@ -90,7 +90,6 @@ function displayProject(project) {
   const modal = document.createElement('div');
   modal.classList.add('modal');
 
-
   modal.innerHTML = `
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -146,15 +145,14 @@ buttons.forEach((button, index) => {
 });
 
 const form = document.getElementById('form-portfolio');
-const email = form.elements['user_email'];
+const email = form.elements.user_email;
 
-form.addEventListener('submit', function (e) {
-  let emailAddress = email.value;
+form.addEventListener('submit', () => {
+  const emailAddress = email.value;
 
   if (emailAddress !== emailAddress.toLowerCase()) {
-    e.preventDefault();
     alert(
-      'The message was not sent, please put the email address in lower case. Thank you.'
+      'The message was not sent, please put the email address in lower case. Thank you.',
     );
   }
 });
