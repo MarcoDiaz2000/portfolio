@@ -160,7 +160,7 @@ form.addEventListener('submit', (event) => {
 const formData = document.getElementById('form-portfolio');
 
 formData.addEventListener('submit', (eventData) => {
-  eventData.preventDefault(); 
+  eventData.preventDefault();
 
   const nameData = formData.elements.user_name.value;
   const emailData = formData.elements.user_email.value;
