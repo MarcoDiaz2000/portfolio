@@ -156,3 +156,25 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+const formData = document.getElementById('form-portfolio');
+
+formData.addEventListener('submit', (eventData) => {
+  eventData.preventDefault(); 
+
+  const nameData = formData.elements.user_name.value;
+  const emailData = formData.elements.user_email.value;
+  const messageData = formData.elements.user_message.value;
+
+  localStorage.setItem('form_data', JSON.stringify({ nameData, emailData, messageData }));
+
+  formData.submit();
+});
+
+const storedData = JSON.parse(localStorage.getItem('form_data'));
+
+if (storedData) {
+  formData.elements.user_name.value = storedData.nameData;
+  formData.elements.user_email.value = storedData.emailData;
+  formData.elements.user_message.value = storedData.messageData;
+}
