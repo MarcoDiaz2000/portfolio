@@ -20,7 +20,7 @@ const projects = [
       '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
     description2:
       '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
-    image: 'images/To-do list.jpg', 
+    image: 'images/To-do list.jpg',
     html: 'HTML',
     css: 'CSS',
     javascript: 'JavaScript',
@@ -31,7 +31,7 @@ const projects = [
     title: 'Multi-Post Stories',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      description2:
+    description2:
       '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
     image: 'images/p2.png',
     html: 'HTML',
@@ -45,7 +45,7 @@ const projects = [
     title: 'Tonic',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      description2:
+    description2:
       '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
     image: 'images/p3.png',
     html: 'HTML',
@@ -58,7 +58,7 @@ const projects = [
     title: 'Multi-Post Stories',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      description2:
+    description2:
       '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
     image: 'images/p4.png',
     html: 'HTML',
