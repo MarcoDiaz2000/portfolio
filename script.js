@@ -15,41 +15,57 @@ document.querySelectorAll('.menu-link').forEach((n) => {
 
 const projects = [
   {
-    title: 'Tonic',
+    title: 'To.do list',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    image: 'images/p1.png',
+      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
+    description2:
+      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
+    image: 'images/To-do list.jpg', 
     html: 'HTML',
     css: 'CSS',
     javascript: 'JavaScript',
+    seeLive: 'https://marcodiaz2000.github.io/To-do-list/dist/',
+    seeSource: 'https://github.com/MarcoDiaz2000/To-do-list',
   },
   {
     title: 'Multi-Post Stories',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      description2:
+      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
     image: 'images/p2.png',
     html: 'HTML',
     css: 'CSS',
     javascript: 'JavaScript',
+    seeLive: '#',
+    seeSource: '#',
   },
 
   {
     title: 'Tonic',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      description2:
+      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
     image: 'images/p3.png',
     html: 'HTML',
     css: 'CSS',
     javascript: 'JavaScript',
+    seeLive: '#',
+    seeSource: '#',
   },
   {
     title: 'Multi-Post Stories',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      description2:
+      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
     image: 'images/p4.png',
     html: 'HTML',
     css: 'CSS',
     javascript: 'JavaScript',
+    seeLive: '#',
+    seeSource: '#',
   },
 ];
 
@@ -68,7 +84,7 @@ for (let i = 0; i < projects.length; i += 1) {
         <img src='images/dot.png' alt='dot' />
         <span class='texttype2'>Back End Dev</span>
         <img src='images/dot.png' alt='dot' />
-        <span class='texttype2'>2015</span>
+        <span class='texttype2'>2023</span>
       </div>
       <p class='text1'>
       ${projects[i].description}
@@ -99,7 +115,7 @@ function displayProject(project) {
         <img src="images/dot.png" alt="dot" />
         <span class="texttype2">Back End Dev</span>
         <img src="images/dot.png" alt="dot" />
-        <span class="texttype2">2015</span>
+        <span class="texttype2">2023</span>
       </div>
         <div class="img-div-modal">
       <img class="img-hero" src="${project.image}" alt="image-project" />
@@ -107,7 +123,7 @@ function displayProject(project) {
       <div class="project-info">
         <div class="column1">
           <div class="description">
-            <p class="text1-modal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="text1-modal">${project.description2}</p>
           </div>
         </div>
         <div class="column2">
@@ -119,8 +135,8 @@ function displayProject(project) {
             </ul>
             <hr>
             <div class="button-container">
-              <button class="btn-modal">See sive<img class="icon" src="images/iconlive.png" alt="github" /></button>
-              <button class="btn-modal">See source<img class="icon" src="images/icongithub.png" alt="github" /></button>
+            <a href="${project.seeLive}" target="_blank"> <button class="btn-modal">See live<img class="icon" src="images/iconlive.png" alt="github" /></button>  </a> 
+            <a href="${project.seeSource}" target="_blank"> <button class="btn-modal">See source<img class="icon" src="images/icongithub.png" alt="github" /></button> </a> 
             </div>
           </div>
         </div>
