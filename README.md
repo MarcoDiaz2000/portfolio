@@ -131,20 +131,7 @@ You can deploy this project in this link <a href="https://marcodiaz2000.github.i
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Project 1: Setup and mobile version skeleton]**
-- [ ] **[Project 2: Mobile version]**
-- [ ] **[Project 3: Contact form (pair programming)]**
-- [ ] **[Project 4: Desktop version]**
-- [ ] **[Project 5: Application deploy]**
-- [ ] **[Project 6: Evaluate accessibility (pair programming)]**
-- [ ] **[Project 7: Mobile menu (pair programming)]**
-- [ ] **[Project 8: Details modal (pair programming)]**
-- [ ] **[Project 9: Validate contact form (pair programming)]**
-- [ ] **[Project 10: Preserve data in the browser (pair programming)]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- ## 🔭 Future Features <a name="future-features"></a> -->
 
 <!-- CONTRIBUTING -->
 
