@@ -130,7 +130,7 @@ You can deploy this project in this link <a href="https://marcodiaz2000.github.i
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
+<!--
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Project 1: Setup and mobile version skeleton]**
@@ -145,6 +145,7 @@ You can deploy this project in this link <a href="https://marcodiaz2000.github.i
 - [ ] **[Project 10: Preserve data in the browser (pair programming)]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 <!-- CONTRIBUTING -->
 
