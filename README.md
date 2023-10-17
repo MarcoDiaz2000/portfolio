@@ -53,7 +53,7 @@ Hello, I´m Marco Díaz
   <ul>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
   </ul>
-</details>
+</details> 
 
 <!-- Features -->
 
