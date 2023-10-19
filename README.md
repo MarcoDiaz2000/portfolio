@@ -30,7 +30,7 @@ Hello, I´m Marco Díaz
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-**[Learning objectives]**
+**[Learning objectives]** 
 
 - [ ] Understand how to parse a Figma design to create a UI.
 - [ ] Build a personal portfolio site.
