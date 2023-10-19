@@ -62,7 +62,7 @@ Hello, I´m Marco Díaz
 - **[Portafomio Web]**
 - **[Movile ]**
 - **[Responsive website]**
-- **[Deployment in GiyHub Page]**
+- **[Deployment in GiyHub Page]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
