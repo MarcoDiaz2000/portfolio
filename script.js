@@ -28,7 +28,7 @@ const projects = [
     seeSource: 'https://github.com/MarcoDiaz2000/To-do-list',
   },
   {
-    title: 'Multi-Post Stories',
+    title: 'Harley Davidson Book an Appointment',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2:
