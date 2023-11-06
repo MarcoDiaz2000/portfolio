@@ -42,7 +42,7 @@ const projects = [
   },
 
   {
-    title: 'Tonic',
+    title: 'Micro Biz Finder',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2:
