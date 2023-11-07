@@ -46,7 +46,7 @@ const projects = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2:
-      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
+      'The application was created with React and Redux, using the Yelp fuction API. Develop the application for a geolocated micro directory, where tourists and residents can easily search for services and entertainment in the city of Montreal, QC, Canada. The application is designed so that you can easily create local directories for other cities.',
     image: 'images/p3.png',
     html: 'HTML',
     css: 'CSS',
