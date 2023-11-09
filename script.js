@@ -19,7 +19,7 @@ const projects = [
     description:
       '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
     description2:
-      '"The project we built is based on an app to book an appointment to test ride a Harley-Davidson motorcycle.',
+      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete',
     image: 'images/To-do list.jpg',
     html: 'HTML',
     css: 'CSS',
