@@ -17,7 +17,7 @@ const projects = [
   {
     title: 'To.do list',
     description:
-      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
+      'Is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
     description2:
       '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete',
     image: 'images/To-do list.jpg',
