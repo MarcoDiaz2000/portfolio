@@ -46,7 +46,7 @@ const projects = [
     description:
       'The application was created with React and Redux, using the Yelp fuction API. Develop the application for a geolocated micro directory, where tourists and residents can easily search for services and entertainment in the city of Montreal, QC, Canada. The application is designed so that you can easily create local directories for other cities.',
     description2:
-      'The application was created with React and Redux, using the Yelp fuction API. Develop the application for a geolocated micro directory, where tourists and residents can easily search for services and entertainment in the city of Montreal, QC, Canada. The application is designed so that you can easily create local directories for other cities.',
+      '"Micro Biz Finder" The application was created with React and Redux, using the Yelp fuction API. Develop the application for a geolocated micro directory, where tourists and residents can easily search for services and entertainment in the city of Montreal, QC, Canada. The application is designed so that you can easily create local directories for other cities.',
     image: 'images/p3.png',
     html: 'HTML',
     css: 'CSS',
