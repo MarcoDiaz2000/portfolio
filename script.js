@@ -55,7 +55,7 @@ const projects = [
     seeSource: '#',
   },
   {
-    title: 'Multi-Post Stories',
+    title: 'Star Wars Movies',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2:
