@@ -59,7 +59,7 @@ const projects = [
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     description2:
-      '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
+      '"Star Wars Movies" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!',
     image: 'images/p4.png',
     html: 'HTML',
     css: 'CSS',
